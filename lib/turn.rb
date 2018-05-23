@@ -43,7 +43,7 @@ def turn(board)
   user_input = gets.strip
   index = input_to_index(user_input)
   #while valid_move?(board,index) == true
-  #move(board,index,"X")
+  move(board,index,"X")
   display_board(board)
 #end
 end
